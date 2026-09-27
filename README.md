@@ -1,19 +1,20 @@
 # PABW — Muhammad Idris Al-Hamidi — 25523166
  
-## Pertemuan 3 — Halaman profil saya
+## Pertemuan 4 — Design token halaman profil
  
-Topik halaman saya: koleksi game saya
+- Berkas gaya yang akan dibuat: tokens.css, base.css,
+  layout.css, komponen.css, tema.css
+- Warna utama: #1D3A8C (biru), dipilih karena ...
  
-- Judul halaman: Koleksi Game
-- Deskripsi: Koleksi game yang saya miliki
-- Tautan navigasi: Daftar Game, Tambah Game, Deskripsi 
-- Dua bagian utama: Daftar Game, Tambah Game
-- Kolom tabel: nama game, developer, tanggal rilis, harga game
-- Kolom form: nama game, developer, harga game
-- Gambar: koleksi-1.webp
+### Token yang saya tetapkan
  
-## Catatan penggunaan AI
+| Token | Nilai | Untuk apa |
+|---|---|---|
+| --color-primary | #1D3A8C | tombol, tautan, penanda |
+| --color-fg | #0F172A | warna teks utama |
+| --color-bg | #F8FAFC | latar halaman |
+| --radius-md | 0.5rem | sudut tombol dan kartu |
+| --space-4 | 1rem | jarak standar antar elemen |
  
-Tulis bagian mana yang dibantu AI dan bagian mana yang Anda
-kerjakan sendiri, atau tulis: tidak memakai AI.
-
+Kriteria selesai saya: mengubah --color-primary di satu baris
+harus mengubah warna tombol, tautan, judul, dan garis fokus.
