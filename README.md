@@ -1,18 +1,18 @@
-# PABW — Nama Anda — NIM
+# PABW — Muhammad Idris Al-Hamidi — 25523166
  
 Repo ini memuat pekerjaan mata kuliah Pengembangan Aplikasi
 Berbasis Web, satu folder untuk setiap pertemuan.
  
 ## Pertemuan 3 — Halaman profil saya
  
-Topik halaman saya: koleksi buku di rak saya.
+Topik halaman saya: koleksi game saya
  
-- Judul halaman: Rak Buku Saya
-- Deskripsi: daftar buku yang saya miliki beserta status bacanya
-- Tautan navigasi: Daftar Buku, Tambah Buku, Tentang Saya
-- Dua bagian utama: Daftar Buku, Tambah Buku
-- Kolom tabel: judul, penulis, tahun terbit, status baca
-- Kolom form: judul, penulis, status baca
+- Judul halaman: Koleksi Game
+- Deskripsi: Koleksi game yang saya miliki
+- Tautan navigasi: Daftar Game, Tambah Game, Deskripsi 
+- Dua bagian utama: Daftar Game, Tambah Game
+- Kolom tabel: nama game, developer, tanggal rilis, harga game
+- Kolom form: nama game, developer, harga game
 - Gambar: koleksi-1.webp
  
 ## Catatan penggunaan AI
