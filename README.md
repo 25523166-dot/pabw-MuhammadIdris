@@ -1,8 +1,5 @@
 # PABW — Muhammad Idris Al-Hamidi — 25523166
  
-Repo ini memuat pekerjaan mata kuliah Pengembangan Aplikasi
-Berbasis Web, satu folder untuk setiap pertemuan.
- 
 ## Pertemuan 3 — Halaman profil saya
  
 Topik halaman saya: koleksi game saya
