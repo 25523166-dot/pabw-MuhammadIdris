@@ -58,10 +58,26 @@
             <p>Ini adalah halaman profil saya.</p>
         </section>
 
-        <section id="halaman">
-            <h2>Halaman</h2>
-            <p>Ini adalah halaman lain di website saya.</p>
+        <section id="Halaman">
+        <h2>Judul bagian kedua</h2>
+        
+        <form action="/simpan" method="post">
+            <p>
+            <label for="nama-kolom">Keterangan kolom</label>
+            <input type="text" id="nama-kolom" name="nama-kolom" required>
+            </p>
+            <p>
+            <label for="email-kolom">Email</label>
+            <input type="email" id="email-kolom" name="email-kolom" required>
+            </p>
+            <p>
+            <label for="pesan-kolom">Pesan</label>
+            <textarea id="pesan-kolom" name="pesan-kolom" rows="4" cols="50" required></textarea>
+            </p>
+            <button type="submit">Simpan</button>
+        </form>
         </section>
+
     </main>
     
     <footer>
