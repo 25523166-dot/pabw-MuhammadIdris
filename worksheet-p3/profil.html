@@ -1,69 +1,83 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing</title>
+    <title>Game Collection</title>
 </head>
 <body>
     <header>
-        <h1>My website</h1>
+        <h1>Game Collection</h1>
         <nav aria-label="Main">
             <ul>
-                <li><a href="profil.html">Profil</a></li>
-                <li><a href="halaman.html">Halaman</a></li>
+                <li><a href="#list">Games List</a></li>
+                <li><a href="#halaman">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="profil">
-            <h2>Profil</h2>
+        <section id="list">
+            <h2>Games List on Steam</h2>
                 <table>
-                    <caption>Judul tabel Anda</caption>
+                    <caption>List of Games</caption>
                     <thead>
                         <tr>
-                        <th scope="col">Kolom 1</th>
-                        <th scope="col">Kolom 2</th>
-                        <th scope="col">Kolom 3</th>
+                        <th scope="col">Games</th>
+                        <th scope="col">Time Spent</th>
+                        <th scope="col">Rating</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                         <th scope="row">
                             <figure>
-                            <img src="assets/image1.jpg"
-                                alt="Foto profil"
-                                width="250" loading="lazy">
-                            <figcaption>Foto Profil Lama</figcaption>
+                            <img src="assets/wuwa-pic.jpg"
+                                alt="Wuthering Waves"
+                                width="500" loading="lazy">
+                            <figcaption>Wuthering Waves</figcaption>
                             </figure>
                         </th>
-                        <td>Isi</td>
-                        <td>Isi</td>
+                        <td>281.7h</td>
+                        <td>86.00%</td>
                         </tr>
                         <tr>
-                        <th scope="row">Baris 2</th>
-                        <td>Isi</td>
-                        <td>Isi</td>
+                        <th scope="row">
+                            <figure>
+                            <img src="assets/acOdyssey-pic.jpg"
+                                alt="Assassin's Creed Odyssey"
+                                width="500" loading="lazy">
+                            <figcaption>Assassin's Creed Odyssey</figcaption>
+                            </figure>
+                        </th>
+                        <td>135.5h</td>
+                        <td>87.70%</td>
                         </tr>
                         <tr>
-                        <th scope="row">Baris 3</th>
-                        <td>Isi</td>
-                        <td>Isi</td>
+                        <th scope="row">
+                            <figure>
+                            <img src="assets/nfsHeat-pic.jpg"
+                                alt="Need for Speed Heat"
+                                width="500" loading="lazy">
+                            <figcaption>Need for Speed Heat</figcaption>
+                            </figure>
+                        </th>
+                        <td>47.5h</td>
+                        <td>83.32%</td>
                         </tr>
                     </tbody>
                     </table>
 
 
-            <p>Ini adalah halaman profil saya.</p>
+            <p>This is my game list page.</p>
         </section>
 
         <section id="halaman">
-        <h2>Judul bagian kedua</h2>
+        <h2>Contact</h2>
         
         <form action="/simpan" method="post">
             <p>
-            <label for="nama-kolom">Keterangan kolom</label>
+            <label for="nama-kolom">Column Description</label>
             <input type="text" id="nama-kolom" name="nama-kolom" required>
             </p>
             <p>
@@ -71,7 +85,7 @@
             <input type="email" id="email-kolom" name="email-kolom" required>
             </p>
             <p>
-            <label for="pesan-kolom">Pesan</label>
+            <label for="pesan-kolom">Message</label>
             <textarea id="pesan-kolom" name="pesan-kolom" rows="4" cols="50" required></textarea>
             </p>
             <button type="submit">Simpan</button>
