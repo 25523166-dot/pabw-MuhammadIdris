@@ -12,8 +12,6 @@
   }
 }
 
-
-
 :root:has(#tema:checked) {
   --color-bg:      #0F172A;
   --color-fg:      #E2E8F0;
